@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Componente from './components/Componente'
 import Propiedades from './components/Propiedades'
 import Estado from './components/Estado'
+import RenderizadoCondicional from './components/RenderizadoCondicional'
 import './App.css'
 
 function App() {
@@ -55,6 +56,8 @@ function App() {
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <hr />
       <Estado />
+      <hr />
+      <RenderizadoCondicional />
     </>
   )
 }
