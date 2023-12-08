@@ -68,7 +68,7 @@ export default class CicloVida extends Component {
   }
 
   render () {
-    console.log(4, "El componente se dibuja o redibuja");
+    // console.log(4, "El componente se dibuja o redibuja");
     return (
       <>
         <h2>Ciclo de vida de los Componentes de Clase</h2>
