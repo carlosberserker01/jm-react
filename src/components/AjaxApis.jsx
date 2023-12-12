@@ -50,9 +50,9 @@ export default class AjaxApis extends Component {
         {this.state.pokemons.length === 0 ? (
           <h3>Cargando...</h3>
         ) : (
-          this.state.pokemons.map(el => (
+          this.state.pokemons.map((el, i) => (
             <Pokemon 
-              key={el.id}
+              key={i}
               name={el.name}
               avatar={el.avatar}
             />

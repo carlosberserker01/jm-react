@@ -7,7 +7,7 @@ export default function HooksPersonalizados() {
   // console.log(useFetch());
 
   let { data, isPending, error } = useFetch(url);
-  console.log(data);
+  // console.log(data);
   return (
     <>
       <h2>Hooks personalizados</h2>

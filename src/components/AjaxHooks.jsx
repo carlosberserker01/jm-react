@@ -128,9 +128,9 @@ export default function AjaxHooks() {
       {pokemons.length === 0 ? (
         <h3>Cargando...</h3>
       ) : (
-        pokemons.map(pokemon => (
+        pokemons.map((pokemon, i) => (
           <Pokemon 
-            key={pokemon.id}
+            key={i}
             name={pokemon.name}
             avatar={pokemon.avatar}
           />
